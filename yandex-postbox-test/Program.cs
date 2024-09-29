@@ -24,7 +24,6 @@ var response = await client.SendEmailAsync(new SendEmailRequest
     },
     Content = new EmailContent
     {
-        Raw = null,
         Simple = new Message
         {
             Subject = new Content
